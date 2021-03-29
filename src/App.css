@@ -1,38 +1,227 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+:root{
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255, 0);
+  --primary-red: #ef403e;
+  --priamry-hover-red: #f33501;
+}
+/***************** Navbar *******8********/
+
+nav{
+ z-index: 2;
+ /* position: fixed !important; */
+}
+
+.logo
+{
+  /* width: 16.25rem; */
+  text-transform: uppercase;
+}
+
+/*------Manu Link------- */
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: white !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  /* height: 6rem !important; */
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li >a.active:focus{
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+.fx{
+  /* position:fixed !important; */
+}
+
+/********************* Header ******************/
+
+.header-wraper{
+  position: relative;
+  background: url(shark.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90.7vh;
+}
+.main-info{
+ display: flex;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-family: 'Roboto Condensed', sans-serif;
+ z-index: 1;
+}
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem im !important;
+  }
+}
+
+/* ****************** Typed Text ************************ */
+
+.typed-text{
+  font-size: 3rem;
+  color: var(--primary-white);
+}
+@media(max-width: 768px){
+  .typed-text{
+    font-size: 1.3rem im !important;
+  }
+}
+
+/* ****************** Header main offer Button ************************ */
+
+.btn-main-offer{
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--priamry-hover-red);
+  transition: .2s ease-in-out;
+}
+
+/* ****************** Particlse ************************ */
+
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+@media(max-width: 768px){
+  .particlse_canvas{
+    display: none;
+  }
+}
+/* ************** Image ******************* */
+
+.image{
+  height: 11.25rem;
+  border: 3px solid var(--primary-orange);
+  padding: 10px;
+  border-radius: 50%;
   text-align: center;
 }
+.card{
+  margin: 0% !important;
+  border-bottom: 0.25rem solid var(--primary-orange) !important;
+}
+.card:hover,.imgedit:hover{ transform: scale(1.1) !important; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ***************** Exprince ************************* */
+
+/* .vertical-timeline-element-icon{
+   border-radius: 60% !important ; 
+  width: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vertical-timeline-element{
+  size: 100% !important ;
+} */
+/* .bounce-in{
+  border-radius: 20px !important ;
+} */
+
+/* *********** protfolio ************ */
+.imgedit{
+  border: 0.0625rem solid var(--primary-orange);
+  padding: 0.8125rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* ************* contact me****************** */
+
+input,textarea{
+    font-size: 18px !important;
+    padding: 5px 10px 10px 5px !important;
+    display: block !important;
+    width: 100% !important;
+    border: none !important;
+    border-bottom: 1px solid #fff !important;
+    background: transparent !important;    
+}
+input::placeholder{
+  color: white !important;
+}
+textarea::placeholder{
+  color: white !important;
+}
+.txt{
+  color: #fff;
+  font-size: 1.15rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* **************** Foooter ********************** */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #455A64;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.xyz {
+    overflow: hidden;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+}
+
+.bold-text {
+    color: #989c9e !important;
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+button{
+ border: none;
+ background: none;
 }
