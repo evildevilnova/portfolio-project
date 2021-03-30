@@ -10,7 +10,6 @@ import Window from "./Window";
 const Portfolio = () => {
     return (
         <>
-          <main>
 
             <div id="p" className="container py-4">
                 <h2 className="text-center py-5 text-warning">PORTFOLIO</h2>
@@ -39,37 +38,33 @@ const Portfolio = () => {
             </div>
             <Window
                 idn="1"
+                name="NETFLIX"
                 img={img1}
                 code=""
                 site=""
             />
             <Window
                 idn="2"
+                name="KeepNotes"
                 img={img2}
                 code=""
                 site=""
             />
             <Window
                 idn="3"
+                name="Enterprises"
                 img={img3}
                 code="https://github.com/evildevilnova/React_project"
                 site="https://evildevilnova.github.io/React_project/"
             />
             <Window
                 idn="4"
+                name="Decoration"
                 img={img4}
                 code=""
                 site=""
-            />
-
-            {/* ****************** */}
-            
-
-
-            
-          </main>
-          
-
+            />            
+ 
         </>
     )
 }
