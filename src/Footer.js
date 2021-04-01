@@ -14,11 +14,11 @@ const Footer = () => {
                             <small>
                                  <span>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                </span>  Nishantlodhi2468@gmail.com
+                                </span> <a href="https://mail.google.com/mail/u/0/#sent?compose=CllgCJZdBXJGtlwZzfRGsKrqPsnmkPKLkPJhjXSkCPhdQRhdbWlDxvcFFlNBszNKqwHhXTflCnq" target="_target" className="text-white">  Nishantlodhi2468@gmail.com</a>
                             </small>
                         </div>
                         <div className="col-xl-3 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
-                            <h6 className="text-muted bold-text"><b>KAPIL</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span> KAPIL@gmail.com</small>
+                            <h6 className="text-muted bold-text"><b>KAPIL</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span><a href="https://mail.google.com/mail/u/0/#sent?compose=DmwnWtVbDcQJtvcMVHGfskhpJMfpCHwpvBxqBQmzSLqZSPGRPjHbQzxCLGqFHvGzvzMthsnsnVpL" className="text-white" target="_target">  birthdayboy0987@gmail.com</a></small>
                         </div>
                     </div>
                 </footer>

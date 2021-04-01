@@ -6,7 +6,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('gmail', 'template_h47xw3q', e.target, 'service_ywkh2p4')
+        emailjs.sendForm('gmail', 'template_h47xw3q', e.target, 'user_wapTvLo0HwZR3hWgrqjWs')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -14,7 +14,7 @@ const Contact = () => {
           });
           e.target.reset()
         }
-    return (
+    return ( 
         <>
         {/* #333a41 , */}
         <div id="c" className="py-5" style={{backgroundColor: "#333a41"}}>

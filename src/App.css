@@ -52,9 +52,7 @@ nav ul li{
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange);
 }
-.fx{
-  /* position:fixed !important; */
-}
+
 
 /********************* Header ******************/
 
@@ -106,14 +104,15 @@ nav ul li{
 .btn-main-offer{
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
-  border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-white);
+  border-radius: 0.6rem;
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-red);
   margin: 2rem;
 }
 
 .btn-main-offer:hover{
   text-decoration: none;
+  color: var(--primary-white);
   background-color: var(--priamry-hover-red);
   transition: .2s ease-in-out;
 }
@@ -126,11 +125,11 @@ nav ul li{
   width: 100vw;
   z-index: 1;
 }
-@media(max-width: 768px){
+/* @media(max-width: 768px){
   .particlse_canvas{
     display: none;
   }
-}
+} */
 /* ************** Image ******************* */
 
 .image{
@@ -141,8 +140,14 @@ nav ul li{
   border-radius: 50%;
   text-align: center;
 }
+@media(max-width: 768px){
+  .image{
+    height: 8rem;
+    width: 9rem;
+  }
+}
 .card{
-  margin: 0% !important;
+  /* margin: 0% !important; */
   border-bottom: 0.25rem solid var(--primary-orange) !important;
 }
 .card:hover,.imgedit:hover{ transform: scale(1.1) !important; }
@@ -196,11 +201,6 @@ input:focus{
 /* **************** Foooter ********************** */
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
-body {
-    /* background: linear-gradient(0deg, #fff, 50%, #DEEEFE); */
-    /* font-family: 'Rubik', sans-serif; */
-    /* background: #455A64; */
-}
 
 .xyz {
     overflow: hidden;
