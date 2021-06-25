@@ -20,6 +20,8 @@
     "react-loading": "^2.0.3",
     "react-modal": "^3.12.1",
     "react-particles-js": "^3.4.1",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-typed": "^1.2.0",
     "react-vertical-timeline-component": "^3.3.3",

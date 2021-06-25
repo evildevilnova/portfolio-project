@@ -1,18 +1,18 @@
 import React, { useState } from 'react'
-import img1 from "./netflix.jpg";
-import img2 from "./notes.png";
-import img3 from "./enterprises.png";
-import img4 from "./tamplate.png";
+import img1 from "../Images/netflix.jpg";
+import img2 from "../Images/notes.png";
+import img3 from "../Images/enterprises.png";
+import img4 from "../Images/list.png";
 import 'reactjs-popup/dist/index.css';
-import Window from "./Window";
+import Window from "../Window";
 
 
 const Portfolio = () => {
     return (
         <>
 
-            <div id="p" className="container py-4">
-                <h2 className="text-center py-5 text-warning">PORTFOLIO</h2>
+            <div id="p" className="container py-5">
+                <h2 className="text-center py-5 textColor">PORTFOLIO</h2>
                 <div className="row pb-5">
                     <div className="col-md-3 col text-center pb-4">
                         <button type="button" data-toggle="modal" data-target="#1">
@@ -40,15 +40,15 @@ const Portfolio = () => {
                 idn="1"
                 name="NETFLIX"
                 img={img1}
-                code=""
-                site=""
+                code="https://github.com/evildevilnova/Netflix"
+                site="https://netflix-clone-5966a.web.app/"
             />
             <Window
                 idn="2"
-                name="KeepNotes"
+                name="Notes"
                 img={img2}
-                code=""
-                site=""
+                code="https://github.com/evildevilnova/notes"
+                site="https://evildevilnova.github.io/notes/"
             />
             <Window
                 idn="3"
@@ -59,9 +59,9 @@ const Portfolio = () => {
             />
             <Window
                 idn="4"
-                name="Decoration"
+                name="List"
                 img={img4}
-                code=""
+                code="https://github.com/evildevilnova/list"
                 site=""
             />            
  

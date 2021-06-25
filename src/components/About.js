@@ -1,0 +1,30 @@
+import React from 'react'
+import img from '../Images/Nishant1.jpg';
+
+const About = () => {
+    return (
+        <>
+          <div id="a" className="container">
+              <div className="row py-4">
+                  <div className="col-md-6 py-md-5 pb-4 text-center d-flex justify-content-center">
+                    <img src={img} className="image" alt="image"  />
+                  </div>
+                  <div className="col-md-6 text-md-left text-center py-md-5">
+                      <h2 className="aboutme text-warning">ABOUT ME</h2>
+                      <p>I’m Nishant and i am Full Stack Web Developer. It's been 1 years, I’m working as web developer.i have developed many website and also provided my services to college students by getting their projects ready ASAP as a freelancer I have been part of some very good full stack web developer projects.I have done my diploma in Computer Engineering.
+                         I'm also learning Back-End Development and looking forward to be a Full Stack Web Developer.
+                      </p>
+                      <p>My Skill Set : HTML5, CSS3, JavaScript, Bootstrap and React js.
+                                        Node js, Express js, Mongodb, Redux, Postman, 
+                                        Git, SCSS, SEO, VScode, DigitalOcean, Linux,</p>
+                       <p>Curriculum vitae(CV)</p>
+                      
+                      <a href="https://drive.google.com/file/d/17CWB6yRqswixNn2NuyhLssUs8FprN96G/view?usp=drivesdk" target="_target" className="btn btn-outline-success">Download</a>
+                  </div>
+              </div>
+          </div>  
+        </>
+    )
+}
+
+export default About

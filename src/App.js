@@ -1,20 +1,31 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import React, { useEffect } from 'react';
 import Particlse from "react-particles-js";
-import Navbar from "./Navbar";
-import Header from './Header';
-import About from './About';
-import Service from './Service';
-import Experience from './Experience';
-import Portfolio from './Portfolio';
-import Client from './Client';
-import Contact from './Contact';
-import Footer from './Footer';
+import Navbar from "./components/Navbar";
+import Header from './components/Header';
+import About from './components/About';
+import Service from './components/Service';
+import Experience from './components/Experience';
+import Portfolio from './components/Portfolio';
+import Client from './components/Client';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Cube from './components/Cube/Cube';
+
 
 function App() {
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     <Cube />
+  //   }, 9000);
+  //   return () => clearTimeout(timer);
+  // }, []);
+
+
   return (
     <>
-      <Particlse 
+      <Particlse
         className="particlse_canvas"
         params={{
           particles: {
@@ -35,18 +46,20 @@ function App() {
           }
         }}
       />
-      
+
       <Navbar />
       <Header />
       <About />
       <Service />
       <Experience />
       <Portfolio />
-      {/* <Client /> */}
+      <Client />
       <Contact />
       <Footer />
+
     </>
   );
 }
 
 export default App;
+
