@@ -19,9 +19,9 @@ const Footer = () => {
                                 </span> <a href='mailto:nishantlodhi2468@gmail.com' target="_target" className="text-white">  Nishantlodhi2468@gmail.com</a>
                             </small>
                         </div>
-                        <div className="col-xl-3 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 hide-mobile">
+                        {/* <div className="col-xl-3 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 hide-mobile">
                             <h6 className="text-muted bold-text"><b>KAPIL</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span><a href='mailto:birthdayboy0987@gmail.com' className="text-white" target="_target">  birthdayboy0987@gmail.com</a></small>
-                        </div>
+                        </div> */}
                     </div>
                 </footer>
             </div>
@@ -29,5 +29,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
-// https://mail.google.com/mail/u/0/#sent?compose=DmwnWtVbDcQJtvcMVHGfskhpJMfpCHwpvBxqBQmzSLqZSPGRPjHbQzxCLGqFHvGzvzMthsnsnVpL
+export default Footer;
