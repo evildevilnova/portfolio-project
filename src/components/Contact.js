@@ -16,6 +16,10 @@ const Contact = () => {
         }
     return ( 
         <>
+<<<<<<< HEAD
+=======
+        {/* #333a41 , */}
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
         <div id="c" className="py-5" style={{backgroundColor: "#333a41"}}>
           <div className="container">
 
@@ -28,6 +32,7 @@ const Contact = () => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="md-form form-group">
+<<<<<<< HEAD
                                         <input type="text" className="inputfeild form-control" id="name" name="name" placeholder="Name" />
                                     </div>
                                     <div className="md-form form-group">
@@ -38,6 +43,18 @@ const Contact = () => {
                                     </div>
                                     <div className="md-form form-group ">
                                         <input type="text" className="inputfeild form-control" id="subject" name="subject" placeholder="Subject" />
+=======
+                                        <input type="text" className="inputfeild" id="name" name="name" placeholder="Name" className="form-control" />
+                                    </div>
+                                    <div className="md-form form-group">
+                                        <input type="email" className="inputfeild" id="email" name="email" placeholder="Email" className="form-control" />
+                                    </div>
+                                    <div className="md-form form-group">
+                                        <input type="number" className="inputfeild" id="Phone" name="Phone" placeholder="Phone Number" className="form-control" />
+                                    </div>
+                                    <div className="md-form form-group ">
+                                        <input type="text" className="inputfeild" id="subject" name="subject" placeholder="Subject" className="form-control" />
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
                                     </div>
                                 </div>
 

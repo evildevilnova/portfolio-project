@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import React from 'react'
 import img1 from "../Images/netflix.jpg";
 import img2 from "../Images/Ecommerce.png";
+=======
+import React, { useState } from 'react'
+import img1 from "../Images/netflix.jpg";
+import img2 from "../Images/notes.png";
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
 import img3 from "../Images/enterprises.png";
 import img4 from "../Images/list.png";
 import 'reactjs-popup/dist/index.css';
@@ -15,6 +21,7 @@ const Portfolio = () => {
                 <h2 className="text-center py-5 textColor">PORTFOLIO</h2>
                 <div className="row pb-5">
                     <div className="col-md-3 col text-center pb-4">
+<<<<<<< HEAD
                         <button type="button" data-toggle="modal" data-target="#2">
                           <img src={img2} className="imgedit" width="230px" height="120px"/>
                         </button>
@@ -22,6 +29,15 @@ const Portfolio = () => {
                     <div className="col-md-3 col text-center pb-4">
                         <button type="button" data-toggle="modal" data-target="#1">
                             <img src={img1} className="imgedit" width="230px" height="120px"/>
+=======
+                        <button type="button" data-toggle="modal" data-target="#1">
+                          <img src={img1} className="imgedit" width="230px" height="120px"/>
+                        </button>
+                    </div>
+                    <div className="col-md-3 col text-center pb-4">
+                        <button type="button" data-toggle="modal" data-target="#2">
+                            <img src={img2} className="imgedit" width="230px" height="120px"/>
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
                         </button>
                     </div>
                     <div className="col-md-3 col text-center pb-4">
@@ -45,12 +61,19 @@ const Portfolio = () => {
             />
             <Window
                 idn="2"
+<<<<<<< HEAD
                 name="Ecommerce"
                 img={img2}
                 code="https://github.com/evildevilnova/riding_gear_front_website"
                 
                 site="https://riding-gear.herokuapp.com/"
                 // site="https://evildevilnova.github.io/notes/"
+=======
+                name="Notes"
+                img={img2}
+                code="https://github.com/evildevilnova/notes"
+                site="https://evildevilnova.github.io/notes/"
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
             />
             <Window
                 idn="3"

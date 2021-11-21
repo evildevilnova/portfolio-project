@@ -17,7 +17,11 @@ const Service = () => {
                                 />
                             </div>
                                 
+<<<<<<< HEAD
                                 <h5 className="card-title pt-md-3 pt-1">UI/UX Development</h5>
+=======
+                                <h5 className="card-title pt-md-3 pt-1">Web Design</h5>
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
                                 <p className="card-text">I approach each project individually and always focus on the result.</p>
                             </div>
                         </div>
@@ -41,7 +45,11 @@ const Service = () => {
                                     size={40}
                                     color="#f9ab00"
                                 />
+<<<<<<< HEAD
                                 <h5 className="card-title pt-md-3 pt-1">Facebook Ads</h5>
+=======
+                                <h5 className="card-title pt-md-3 pt-1">Facebook Ads SMM</h5>
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
                                 <p className="card-text">Your potential clients well see your service or product on Facebook.</p>
                             </div>
                         </div>

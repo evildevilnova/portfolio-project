@@ -14,7 +14,11 @@ const Window = (props) => {
                     </button>
                 </div>
                 <div className="modal-body">
+<<<<<<< HEAD
                     <img src={props.img} width="102%" height="100%"  alt="img"/>
+=======
+                    <img src={props.img} width="102%" height="100%" />
+>>>>>>> aa5587d4ba9c0aa0af8af37bfe6f96daf8bac59f
                 </div>
                 <div className="modal-footer">
                     <a href={props.code} target="_target" className="btn btn-secondary">view Code</a>
